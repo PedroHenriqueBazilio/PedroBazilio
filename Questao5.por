@@ -13,9 +13,9 @@ programa {
     leia(t)
 
     t = t / 100
-    jc = c * 1 + (mat.potencia(t, 2))
+    jc = c * mat.potencia(1 + t, m)
 
-    escreva("Valor do juros: \n")
+    escreva("Valor do juros compostos: \n")
     escreva(jc)
 
   }
