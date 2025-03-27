@@ -6,7 +6,7 @@ programa {
 
     se (a >= b >= c) {
       escreva("1")
-    } senao {
+    } senao se (a <= b <= c) {
       escreva("-1")
     }
   }
