@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    inteiro n1, n2, sub1, sub2
+    inteiro n1, n2
     escreva("Escreva dois numeros: ")
     leia(n1, n2)
     se (n1 / 2 == 1 e n2 / 2 != 1){
