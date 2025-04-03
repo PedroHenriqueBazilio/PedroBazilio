@@ -5,18 +5,54 @@ programa {
     escreva("Digite o código do produto: ")
     leia(codigo)
     
-    se (codigo == 1) {
+   escolha (codigo){
+   	caso 1:
         escreva("Alimento não-perecível")
-    } senao se (codigo >= 2 e codigo <= 4) {
+        retorne
+     caso  2: 
         escreva("Alimento perecível")
-    } senao se (codigo == 5 ou codigo == 6) {
+        retorne
+     caso  3: 
+        escreva("Alimento perecível")
+        retorne
+     caso  4: 
+     	escreva("Alimento perecível")
+      retorne
+     caso 5:
+     	escreva("Vestuário")
+      retorne
+     caso 6: 
         escreva("Vestuário")
-    } senao se (codigo == 7) {
+        retorne
+     caso 7: 
         escreva("Higiene Pessoal")
-    } senao se (codigo >= 8 e codigo <= 15) {
+        retorne
+     caso 8:
         escreva("Limpeza e Utensílios Domésticos")
-    } senao {
+        retorne
+     caso 9:
+        escreva("Limpeza e Utensílios Domésticos")
+        retorne
+     caso 10:
+        escreva("Limpeza e Utensílios Domésticos")   
+        retorne
+     caso 11:
+        escreva("Limpeza e Utensílios Domésticos")
+        retorne
+     caso 12:
+        escreva("Limpeza e Utensílios Domésticos")
+        retorne
+     caso 13:
+        escreva("Limpeza e Utensílios Domésticos")
+        retorne
+     caso 14:
+        escreva("Limpeza e Utensílios Domésticos")
+        retorne
+     caso 15:
+        escreva("Limpeza e Utensílios Domésticos")
+        retorne
+     caso contrario: 
         escreva("Código inválido")
-    }
+        pare retorne}
   }
 }
