@@ -5,18 +5,18 @@ programa {
     leia(numero)
 
     escolha(numero) {
-      caso 1: escreva("Janeiro")
-      caso 2: escreva("Fevereiro")
-      caso 3: escreva("Março")
-      caso 4: escreva("Abril")
-      caso 5: escreva("Maio")
-      caso 6: escreva("Junho")
-      caso 7: escreva("Julho")
-      caso 8: escreva("Agosto")
-      caso 9: escreva("Setembro")
-      caso 10: escreva("Outubro")
-      caso 11: escreva("Novembro")
-      caso 12: escreva("Dezembro")
+      caso 1: escreva("Janeiro")retorne
+      caso 2: escreva("Fevereiro")retorne
+      caso 3: escreva("Março")retorne
+      caso 4: escreva("Abril")retorne
+      caso 5: escreva("Maio")retorne
+      caso 6: escreva("Junho")retorne
+      caso 7: escreva("Julho")retorne
+      caso 8: escreva("Agosto")retorne
+      caso 9: escreva("Setembro")retorne
+      caso 10: escreva("Outubro")retorne
+      caso 11: escreva("Novembro")retorne
+      caso 12: escreva("Dezembro")retorne
       caso contrario:
         escreva("Número inválido")
     }
