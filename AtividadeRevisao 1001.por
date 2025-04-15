@@ -4,6 +4,5 @@ programa {
     leia(A, B)
     X = A + B
     escreva("X = ", X)
-
   }
 }
