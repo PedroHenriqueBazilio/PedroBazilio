@@ -3,6 +3,6 @@ programa {
     inteiro A, B, X
     leia(A, B)
     X = A + B
-    escreva("X = ", X)
+    escreva("X = ", X, "/n")
   }
 }
