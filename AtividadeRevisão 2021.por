@@ -3,7 +3,7 @@ programa {
     real valor
     inteiro notas, moedas
     leia(valor)
-    notas = valor
+    notas = valor 
     moedas = (valor * 100) - (notas * 100)
     inteiro n100 = notas / 100
     notas = notas % 100
