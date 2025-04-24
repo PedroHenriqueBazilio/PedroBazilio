@@ -1,56 +1,75 @@
-programa
-{
-    funcao inicio()
-    {
-        inteiro A, B, C
-        leia(A, B, C)
+programa {
+  funcao inicio() {
+    inteiro a, b, c
+    leia(a, b, c)
+    inteiro menor, meio, maior
 
-        inteiro menor, meio, maior
-
-        se (A <= B e A <= C)
-        {
-            menor = A
-            se (B <= C)
-            {
-                meio = B
-                maior = C
-            }
-            senao
-            {
-                meio = C
-                maior = B
-            }
-        }
-        senao se (B <= A e B <= C)
-        {
-            menor = B
-            se (A <= C)
-            {
-                meio = A
-                maior = C
-            }
-            senao
-            {
-                meio = C
-                maior = A
-            }
-        }
-        senao
-        {
-            menor = C
-            se (A <= B)
-            {
-                meio = A
-                maior = B
-            }
-            senao
-            {
-                meio = B
-                maior = A
-            }
-        }
-
-        escreva(menor, "\n", meio, "\n", maior, "\n\n")
-        escreva(A, "\n", B, "\n", C, "\n")
+    se (a < b e a < c) {
+      menor = a
+      se (b < c) {
+        meio = b
+        maior = c
+      } senao {
+        meio = c
+        maior = b
+      }
+    } senao se (b < a e b < c) {
+      menor = b
+      se (a < c) {
+        meio = a
+        maior = c
+      } senao {
+        meio = c
+        maior = a
+      }
+    } senao {
+      menor = c
+      se (a < b) {
+        meio = a
+        maior = b
+      } senao {
+        meio = b
+        maior = a
+      }
     }
+    escreva(menor, "\n", meio, "\n", maior, "\n")
+    escreva(a, "\n", b, "\n", c, "\n")
+  }
+}programa {
+  funcao inicio() {
+    inteiro a, b, c
+    leia(a, b, c)
+    inteiro menor, meio, maior
+
+    se (a < b e a < c) {
+      menor = a
+      se (b < c) {
+        meio = b
+        maior = c
+      } senao {
+        meio = c
+        maior = b
+      }
+    } senao se (b < a e b < c) {
+      menor = b
+      se (a < c) {
+        meio = a
+        maior = c
+      } senao {
+        meio = c
+        maior = a
+      }
+    } senao {
+      menor = c
+      se (a < b) {
+        meio = a
+        maior = b
+      } senao {
+        meio = b
+        maior = a
+      }
+    }
+    escreva(menor, "\n", meio, "\n", maior, "\n")
+    escreva(a, "\n", b, "\n", c, "\n")
+  }
 }
