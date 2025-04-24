@@ -1,0 +1,17 @@
+programa{
+
+  // calcular a média de 20 notas
+  
+  funcao inicio(){
+    real nota, media, somaNotas = 0.0
+    inteiro contador
+
+    para(contador = 1; contador <= 5; contador += 1){
+      escreva("Digite uma nota: ")
+      leia(nota)
+      somaNotas = somaNotas + nota
+    }
+    media = somaNotas / 20
+    escreva("Média: ", media)
+  }
+}
