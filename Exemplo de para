@@ -1,6 +1,6 @@
 programa{
 
-  // calcular a média de 20 notas
+  // calcular a média de 5 notas
   
   funcao inicio(){
     real nota, media, somaNotas = 0.0
